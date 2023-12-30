@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 1085px;
+    border: 2px solid black;
+    border-radius: 28px;
+    margin-top: 7px;
+    margin: auto;
+    overflow-y: auto;
+    height: 60vh;
+}
+.message{
+background-color: rgb(223, 210, 210);
+width: 24%;
+padding: 10px;
+margin: 17px 12px;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+.left{
+float: left;
+clear: both;
+}
+.right{
+float: right;
+clear: both;
+}
+#send_container{
+   text-align: center;
+   margin: 5px;
+   padding: 20px;
+   height: 30px;
+}
+#messageInp{
+    height: 20px;
+    width: 800px;
+    padding: 13px;
+    border-radius: 28px;
+    outline: none;
+    margin: 0;
+    /* box-sizing: border-box; */
+    border: none;
+}
+@media (max-width:1100px){
+    .container {
+        max-width: 981px;
+    }
+    
+}
+@media (max-width:1000px){
+    .container {
+        max-width: 881px;
+    }
+    #messageInp {
+        width: 716px;
+    }
+    .btn{
+        margin-left: 15px;
+    }
+    
+}
+@media (max-width:900px){
+    .container {
+        max-width: 650px;
+    }
+    #messageInp {
+        width: 504px;
+    }
+    .btn{
+        margin-left: 10px;
+    }
+    
+    
+}
+@media (max-width:700px){
+    .container {
+        max-width: 450px;
+    }
+    #messageInp {
+        width: 304px;
+    }
+    .btn{
+        margin-left: 5px;
+    }
+    
+    
+}
+.btn{
+    /* width: 9%; */
+    margin-left: 25px;
+    background-color: #6d88d5; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    /* transition: background-color 0.3s ease;
+  
+   box-shadow: 1110 112px 114px rgba(198, 91, 91, 0.1); */
+  }
+  .btn:hover {
+    background-color: #45a049;
+  }
